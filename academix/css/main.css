@@ -1,0 +1,159 @@
+html {
+    position: relative;
+    min-height: 100vh;
+    color: #000;
+}
+
+body {
+    background-color: #eee;
+    height: 100%;
+    font-family: 'Roboto'; /*Georgia, 'Times New Roman', Times, serif;*/
+    position: relative;
+    color: #000;
+}
+
+.main-container {
+    width: 80%;
+    margin-top: 10px;
+
+    background-color: #fff;
+
+    flex: 1;
+    min-height: 100vh;
+
+    -webkit-box-shadow: #8F8F8F 5px 5px 5px;
+    -moz-box-shadow: #8F8F8F 5px 5px 5px;
+    box-shadow: #8F8F8F 5px 5px 5px;
+}
+
+/* header container */
+
+.header-container {
+   
+    background:#fff;
+    -webkit-box-shadow: #194761 5px 5px 5px;
+     -moz-box-shadow: #194761 5px 5px 5px ; 
+    box-shadow: #194761 5px 5px 5px;
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    text-align: right;
+    
+    font-size:20px; 
+    font-weight:bold;
+    color:grey; 
+    margin-right:15px; 
+          
+     	
+     } 
+
+.rightHeader {
+    line-height: 1;
+}
+
+/* picture thumbnail */
+.pic-thumbnail img {
+    padding: 2px;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius: 50%;
+    -webkit-filter: graysclase(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+/* Navbar */
+.topNav {
+    margin: 0;
+    padding: 0;
+    
+    background-color: #335266;
+    -webkit-box-shadow: #335266 5px 5px 5px;
+    -moz-box-shadow: #335266 5px 5px 5px;
+    box-shadow: #335266 5px 5px 5px;
+
+    padding: 10px;
+
+}
+
+.topNav, a {
+    color: #fff;
+    font-weight: 100px;
+}
+
+.topNav, a:hover {
+    color: antiquewhite;
+    
+}
+
+.btn {
+    background-color:#335266; 
+    color:#fff; 
+    border:0;
+}
+
+.btn:hover {
+    background-color: cadetblue;
+}
+
+/* Home page */
+#pictures img {
+    width: 100%;
+    height: auto;
+}
+
+#mypics {
+    height: 400px;
+    
+}
+
+
+
+/* publication list */
+
+.list-group-item {
+    text-align: justify;
+}
+
+.pub-list a {
+    color: #000;
+}
+
+.pub-list a:hover {
+    color: #335266;
+}
+
+.pub-description {
+    text-align: justify;
+}
+
+#abstractHeading {
+    font-size: 18px;
+    background-color: #eee;
+    text-align: center;
+}
+
+#description {
+    margin-top: 5px;
+}
+/* Footer: Set black background color, white text and some padding */
+
+.footer {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;    
+  background-color: #335266;
+  color: white;
+  padding: 1rem; 
+  margin-top: 50px;
+}
+
+
